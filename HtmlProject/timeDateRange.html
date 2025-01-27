@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Date range</title>
+  </head>
+  <body>
+    <nav>Home</nav>
+    <hr color="black" />
+    <br />
+    <form>
+      Time: <input type="time" /> Date: <input type="date" /><br /><br />
+      File: <input type="File" /><br /><br />
+      Color: <input type="color" /><br /><br />
+
+      Poked Me: <input type="button" value="poked" />
+    </form>
+
+    <br /><br />
+    <!--comment section-->
+    <form>
+      <textarea rows="4" colspan="10">comment your View</textarea>
+    </form>
+    <br /><br />
+
+    <!--Range define method on javascript-->
+    <form oninput="x.value=parseInt(pr.value)">
+      Price Range: <input type="range" id="pr" min="100" max="1000" />
+      <output name="x" for="pr"></output>
+    </form>
+  </body>
+</html>
